@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS basics</title>
+    <link rel="stylesheet" href="styles.css">
+
+<!-- ce scriem in partea de head nu se reflecta in continut ci punem niste meta taguri care modifica doar aspectul continutului, taguri de css -->
+
+<style>
+    /* aplica regulile de aici tuturor paragrafelor */
+    /* p este un selector care targheteaza toate paragrafele */
+    /* p {
+        color:cornflowerblue;
+        font-size: 24px;
+    } */
+
+    /* a {
+        font-size: 12px;
+    } */
+
+    /* .blue este un selector care o sa selecteze toate elementele care au clasa blue */
+    /* .blue {
+        color:cornflowerblue;
+        font-size: 24px;
+    }
+
+    .orange {
+        color:orange;
+        font-size: 24px;
+    }
+
+    .font {
+        font-family: monospace;
+    } */
+
+    /* #p1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } */
+
+    .yellow {
+        color: aquamarine;
+    }
+
+</style>
+    
+</head>
+
+<body>
+
+    <p class="blue">Welcome to our CSS crashcourse!</p>
+
+    <div style="width: 100px; height: 50px; background-color:bisque;">
+        <p>This is inside the div</p>
+    </div>
+
+    <p class="blue" >Our second welcome</p>
+
+    <!-- un element poate primi una sau mai multe clase, ex blue si font-->
+    <p class="blue font"> Our third welcome</p>
+
+    <p class="blue"> Our fourth welcome</p>
+
+    <!-- tot ce e inline suprascrie orice alta regula de css care vine de mai sus -->
+    <p class="orange">Our fifth welcome</p>
+
+    <!-- chiar daca sunt 2 clase de acelasi tip definite, elementul va lua stilul ultimei clase definite in css -->
+    <p class="blue green">Our sixth welcome</p>
+
+    <p class="green blue">Our seventh welcome</p>
+
+    <p class="yellow" style="color: black;">Our eighth welcome</p>
+
+
+    <a href="http://www.google.com">Go to google</a>
+</body>
+</html>

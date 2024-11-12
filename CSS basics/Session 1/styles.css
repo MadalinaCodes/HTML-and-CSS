@@ -1,0 +1,39 @@
+    /* aplica regulile de aici tuturor paragrafelor */
+    /* p este un selector care targheteaza toate paragrafele */
+    /* p {
+        color:cornflowerblue;
+        font-size: 24px;
+    } */
+
+    a {
+        font-size: 12px;
+    }
+
+    /* .blue este un selector care o sa selecteze toate elementele care au clasa blue */
+    .blue {
+        color:cornflowerblue;
+        font-size: 24px;
+    }
+
+    .orange {
+        color:orange;
+        font-size: 24px;
+    }
+
+    .font {
+        font-family: monospace;
+    }
+
+    .green {
+        color:green;
+        font-size: 24px;
+    }
+
+    .yellow {
+        color: darkkhaki !important;
+    }
+
+
+    /* #p1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } */

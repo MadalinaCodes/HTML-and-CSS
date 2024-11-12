@@ -1,0 +1,66 @@
+/* CSS Requirements:
+1. Set the background color of the 'body' to lightgray.
+2. Style the header 'div' to have a background color of darkblue and white text.
+3. Make the navigation links inside the header 'div' display inline, with some padding, and remove the underline.
+4. Change the color of the navigation links on hover to lightblue.
+5. Set the backgroundcolor of the main content 'div' to white and add 20px of padding.
+6. Add a border of 1 px solid gray to each section 'div' in the main content area.
+7. Add 20px of padding inside each section 'div'.
+8. Style the footer 'div' to have a background color of darkblue, white text, and centered text.
+9. Add 20 px of padding to the footer 'div'.
+10. Ensure the entire page uses a sans-serif font.  */
+
+    a:hover {
+        color: lightblue;
+    }
+
+
+    a {
+        color:white;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+
+    body{
+        background-color:lightgray;
+        font-family: sans-serif;
+    }
+
+    .lightgray {
+        color:lightgray;
+        font-size: 24px;
+    }
+
+    nav {
+        height: 30px; 
+        background-color:darkblue;  
+    }
+
+    .padding {
+        padding: 20px;
+    }
+
+    .content {
+        background-color: white;
+        padding: 20px;
+    }
+
+    .border {
+        border: 1px;
+        border-style: solid;
+        border-color: gray;
+    }
+
+    .background{
+        background-color: darkblue; 
+        color: white; 
+        text-align: center;
+    }
+
+    .source {
+        font-size: 14px;
+        color:cornflowerblue
+    }
+
+
