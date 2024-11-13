@@ -1,0 +1,33 @@
+.box1 {
+    width: 150px;
+    height: 100px;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+    padding: 5px 10px 3px 10px;
+    border: 3px solid chocolate;
+    background-color: blanchedalmond;
+    /* margin-top: 25px;
+    margin-left: 50 px; */
+    margin: 100px 10px 10px 60px;
+    border-left: 30px solid chocolate;
+}
+
+.second-paragraph {
+    background-color: blueviolet;
+
+}
+
+.third-paragraph {
+    margin-right: 200;
+}
+
+.box2{
+    width: 15%;
+    background-color: cadetblue;
+    margin-left: 15%;
+}
+.inline {
+    display: inline;
+}

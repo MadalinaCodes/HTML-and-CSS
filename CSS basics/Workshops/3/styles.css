@@ -1,0 +1,21 @@
+a:hover {
+    color: lightblue;
+}
+
+.link{
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 15px;
+    background-color:cornflowerblue;
+    border-radius: 1cm;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
